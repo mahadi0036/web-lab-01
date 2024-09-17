@@ -1,1 +1,107 @@
+#normal-input-section{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    
+}
+#normal-input-section label{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.fieldset{
+    max-width: 42vw;
+    min-width: 200px;
+    margin:40px 0;
+    border:none;
+}
+#form-container{
+    width:42vw;
+    margin:0 auto;
+}
+}
+#radio-button input{
+    width: .5rem;
+}
 
+.radio label{
+    display: flex;
+    gap:5px;
+}
+#checkbox{
+    display: flex;
+    flex-direction: column;
+}
+#select-section label {
+    display: flex;
+    flex-direction: column;
+    gap:.5em;
+}
+.main-container{
+    width: 49vw;
+    height: auto;
+    margin: auto;
+    background-color: antiquewhite;
+}
+#title,#description{
+    text-align: center;
+    margin:10px 0;
+
+}
+#title{
+    padding-top: 30px;
+}
+#description{
+    padding-bottom: 10px;;
+}
+#submit{
+    width:100%;
+    margin:15px 0 50px 0;
+    background-color: aquamarine;
+}
+input{
+    height:40px;
+    border-radius: 5px;
+    display: inline-block;
+}
+legend{
+    margin:6px 0;
+}
+
+.radio label,.checkbox label{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    height: 23px;
+}
+
+select{
+    height: 40px;
+    border-radius: 5px;
+}
+body{
+    background-color: aliceblue;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
+}
+#normal-input-section input, select input{
+    border: none;
+}
+textarea{
+    border: none;
+   resize: horizontal;
+    width: 100%; 
+    max-width: 645.5px;
+    min-width: 100px;
+    min-height:130px ;
+}
+#textarea label{
+    width: 100%;
+
+}
