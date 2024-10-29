@@ -1,0 +1,140 @@
+/* Reset and Basic Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and Navbar */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#header-img {
+    height: 50px;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* Main Content */
+main {
+    padding-top: 100px; /* offset for fixed navbar */
+}
+
+/* Features Section */
+#features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features-flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    min-width: 250px;
+    text-align: left;
+}
+
+/* Video Section */
+#video-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+/* Contact Form */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#email {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: #555;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video {
+        width: 100%;
+    }
+}

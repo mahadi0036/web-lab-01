@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <img src="logo.png" alt="Company Logo" id="header-img">
+        
+        <!-- Navigation Bar -->
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#video" class="nav-link">Product Demo</a>
+            <a href="#contact" class="nav-link">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        
+        <!-- Features Section -->
+        <section id="features">
+            <h2>Our Features</h2>
+            <p>Discover the unique benefits and cutting-edge features of our product.</p>
+            <div class="features-flex">
+                <div class="feature">
+                    <h3>Feature 1</h3>
+                    <p>Detailed description of Feature 1.</p>
+                </div>
+                <div class="feature">
+                    <h3>Feature 2</h3>
+                    <p>Detailed description of Feature 2.</p>
+                </div>
+                <div class="feature">
+                    <h3>Feature 3</h3>
+                    <p>Detailed description of Feature 3.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Video Section -->
+        <section id="video-section">
+            <h2>Watch Our Product Demo</h2>
+            <video id="video" controls>
+                <source src="product-demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Stay Updated</h2>
+            <p>Sign up to receive updates and offers about our product.</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" id="submit" value="Subscribe">
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
